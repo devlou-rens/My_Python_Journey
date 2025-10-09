@@ -1,0 +1,5 @@
+user_string = input("Enter a string: ")
+print("Uppercase:", user_string.upper())
+print("Lowercase:", user_string.lower())
+print("With underscores:", user_string.replace(" ", "_"))
+print("Length:", len(user_string))
