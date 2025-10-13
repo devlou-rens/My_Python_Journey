@@ -1,7 +1,7 @@
 class Intro:
     def __init__(self, full_name, age): #constructor
-        self.full_name = full_name
-        self.age = age
+        self.full_name = full_name #instance variable
+        self.age = age #instance variable
     
     def introduce(self): #method
         print(f"Hi I'm {self.full_name}, and I'm {self.age} years old.")
