@@ -19,7 +19,7 @@ class Mother:
         print(f"Mother's name: {self.mother_name}")
 
 # Child Class (inherits from both Father and Mother)
-class Child(Father, Mother):
+class Child(Father, Mother): #Multiple inheritance
     def __init__(self, father_name, mother_name, child_name): #incude the parameter in the parent class in child class
         Father.__init__(self, father_name)   # manually call Father constructor
         Mother.__init__(self, mother_name)   # manually call Mother constructor 
