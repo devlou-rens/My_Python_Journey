@@ -40,7 +40,7 @@ print()
 while True:
     current_balance = float(input("Enter your current balance: "))
     if current_balance < 0:
-        print("Need to enter your current balance!: ")
+        print("Need to enter your current balance!")
     else:
         break
 print()
@@ -60,7 +60,7 @@ while True:
         while True:
             deposit = float(input("Amount of deposit: "))
             if deposit < 0:
-                print("Please enter again!: ")
+                print("Please enter again!")
             else:
                 break
         print()
