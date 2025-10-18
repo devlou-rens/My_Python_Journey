@@ -6,7 +6,7 @@ sections = ["A", "B", "C", "D"]
 #print(help(sections))
 #print(len(sections))
 #print('L' in sections)
-#print(section[0])
+print(sections[0])
 #sections[0] = "L" # change list
 #sections.append("L") # add list
 #sections.remove("C") # remove list
